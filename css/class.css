@@ -1,12 +1,11 @@
 img {
   width: 100%;
-  background-color: white;
-
-  /* border: 1px solid gray; */
+  transition: all 0.4s;
 }
 
-/* div {
-} */
+img:hover {
+  transform: scale(1.1);
+}
 
 body {
   display: grid;
@@ -18,9 +17,7 @@ body {
   justify-items: start;
   align-items: center;
   column-gap: 30px;
-
-  /* place-items: stretch; */
-  /* background-color: aqua; */
+  margin: 50px;
 }
 
 .one {
